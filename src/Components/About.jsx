@@ -7,12 +7,12 @@ function About() {
       className="w-full h-screen bg-gradient-to-b from bg-gray-800 to to-black text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
+        <div className="pb-5">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             About
           </p>
         </div>
-        <p className="text-xl mt-15">
+        <p className="text-sm mt-10">
           As a passionate front-end developer, I specialize in transforming
           design concepts into engaging and interactive web experiences. With a
           strong foundation in HTML, CSS, and JavaScript, I bring creative
@@ -34,7 +34,7 @@ function About() {
           to create end-to-end solutions that offer a holistic user experience.
         </p>
         <br />
-        <p className="text-xl">
+        <p className="text-sm">
           Driven by curiosity, I constantly stay updated with the latest
           industry trends and emerging technologies across the front-end,
           backend, and data domains. This curiosity fuels my desire to
