@@ -3,13 +3,13 @@ import Calcportfolio from "../assets/Portfolio/calcForPortfolio.jpg";
 
 function PortFolio() {
   const portfolis = [
-    { id: 1, src: Calcportfolio },
-    { id: 2, src: Calcportfolio },
-    { id: 3, src: Calcportfolio },
+    { id: 1, src: Calcportfolio, code: "", demo: "" },
+    { id: 2, src: Calcportfolio, code: "", demo: "" },
+    { id: 3, src: Calcportfolio, code: "", demo: "" },
   ];
   return (
     <div
-      name="portfolio"
+      name="PortFolio"
       className="bg-gradient-to-b from-black to bg-gray-800 w-full text-white md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">

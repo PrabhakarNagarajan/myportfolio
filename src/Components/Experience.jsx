@@ -1,20 +1,22 @@
 import React from "react";
 import html from "../assets/html5-logo.png";
 import js from "../assets/Portfolio/js-logo.png";
+import javascript from "../assets/Portfolio/JavaScript-logo.png";
 import css from "../assets/Portfolio/css3to.png";
 import react from "../assets/Portfolio/react-logo.png";
 import gitHub from "../assets/Portfolio/github-logo.png";
+import ReactLogo from "../assets/Portfolio/React-icon.svg.png";
 function Experience() {
   const experinces = [
     { id: 1, src: html, title: "HTML", style: "shadow-orange-400" },
     { id: 2, src: css, title: "CSS", style: "shadow-blue-400" },
-    { id: 3, src: js, title: "JAVASCRIPT", style: "shadow-yellow-400" },
-    { id: 4, src: react, title: "REACT", style: "shadow-blue-400" },
+    { id: 3, src: javascript, title: "JAVASCRIPT", style: "shadow-yellow-400" },
+    { id: 4, src: ReactLogo, title: "REACT", style: "shadow-blue-400" },
     { id: 5, src: gitHub, title: "GitHub", style: "shadow-gray-400" },
   ];
   return (
     <div
-      name="experience"
+      name="Experience"
       className="bg-gradient-to-b from-gray-800 to to-black w-full h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full text-white">
