@@ -1,9 +1,7 @@
 import React from "react";
 import html from "../assets/html5-logo.png";
-import js from "../assets/Portfolio/js-logo.png";
 import javascript from "../assets/Portfolio/JavaScript-logo.png";
 import css from "../assets/Portfolio/css3to.png";
-import react from "../assets/Portfolio/react-logo.png";
 import gitHub from "../assets/Portfolio/github-logo.png";
 import ReactLogo from "../assets/Portfolio/React-icon.svg.png";
 function Experience() {
