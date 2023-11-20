@@ -44,7 +44,7 @@ function SocialLinks() {
           <BsFillPersonLinesFill size={40} />
         </>
       ),
-      href: "/PrabhakarNResume.pdf",
+      href: "/Prabhakar_Dev_Resume.pdf",
       style: "rounded-br-md",
       download: true,
     },
